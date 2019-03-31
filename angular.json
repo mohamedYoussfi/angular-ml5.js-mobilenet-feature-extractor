@@ -23,9 +23,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css","node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": [],
+            "scripts": ["node_modules/ml5/dist/ml5.min.js" ,
+              "node_modules/p5/lib/p5.js"],
             "es5BrowserSupport": true
           },
           "configurations": {
